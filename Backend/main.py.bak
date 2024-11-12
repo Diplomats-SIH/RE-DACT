@@ -1,0 +1,22 @@
+from fastapi import FastAPI, File, UploadFile
+from typing import Dict
+
+app = FastAPI()
+
+# Supported content types
+SUPPORTED_CONTENT_TYPES = [
+    "image/jpeg", "image/png",  "image/jpg",       # Image formats
+    "video/x-matroska", "video/mp4", # Video formats
+    "application/pdf",               # PDF format
+    "application/vnd.openxmlformats-officedocument.wordprocessingml.document", "application/msword"  # DOCX format
+]
+
+@app.post("/upload")
+async def upload_file(file: UploadFile = File(...)) -> Dict[str, str]:
+    # Validate file type against supported content types
+    if file.content_type not in SUPPORTED_CONTENT_TYPES:
+        return {"status": "failed", "message": "Unsupported file type."}
+    
+    # Generate a unique file ID (placeholder here)
+    file_id = "12345"
+    return {"file_id": file_id, "status": "uploaded"}
