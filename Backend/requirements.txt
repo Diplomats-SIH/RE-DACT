@@ -1,0 +1,6 @@
+python-multipart
+cloudinary
+python-jose
+passlib[bcrypt]
+python-dotenv
+cryptography

@@ -1,0 +1,11 @@
+from fastapi import FastAPI
+from api.upload import router as upload_router
+
+app = FastAPI()
+
+# Include the router
+app.include_router(upload_router, prefix="/api", tags=["Uploads"])
+
+@app.get("/")
+async def root():
+    return {"message": "Welcome to FastAPI with Cloudinary!"}
