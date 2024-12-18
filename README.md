@@ -138,7 +138,7 @@ Steps
 
 **Clone the repository.**
 
-git clone https://github.com/<username>/RE-DACT.git
+git clone https://github.com/Diplomats-SIH/RE-DACT.git
 
 Navigate to the project directory.
 
