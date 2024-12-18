@@ -142,16 +142,12 @@ git clone https://github.com/Diplomats-SIH/RE-DACT.git
 
 Navigate to the project directory.
 
-cd RE-DACT
+cd RE-DACT/REDACT_Main/SIH/SIH_Main
 
 Install dependencies.
 
 pip install -r requirements.txt
-npm install
 
-Run the application.
-
-python main.py
 
 ## References
 
