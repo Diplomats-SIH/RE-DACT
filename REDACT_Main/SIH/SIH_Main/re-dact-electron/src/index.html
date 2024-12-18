@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>RE-DACT</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        h1 {
+            margin-bottom: 20px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        #output {
+            margin-top: 20px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to RE-DACT</h1>
+    <p>Securely redact sensitive data with ease.</p>
+    <button id="run-script-btn">Run Python Script</button>
+    <div id="output"></div>
+    <script>
+        document.getElementById('run-script-btn').addEventListener('click', async () => {
+            try {
+                const result = await window.electronAPI.runPythonScript('Hello from Electron');
+                document.getElementById('output').innerText = result;
+            } catch (error) {
+                document.getElementById('output').innerText = `Error: ${error.message}`;
+            }
+        });
+    </script>
+</body>
+</html>
