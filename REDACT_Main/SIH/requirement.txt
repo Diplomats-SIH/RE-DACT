@@ -1,0 +1,10 @@
+sys
+pyqt5
+subprocess
+os
+spacy
+re
+faker
+docx
+pandas
+fitz
