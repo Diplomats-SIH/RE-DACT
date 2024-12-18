@@ -25,15 +25,15 @@ RE-DACT is a cutting-edge solution designed to address the growing need for secu
 
 ## Features
 
-**Customizable Redaction Levels**: User-defined options for secure sharing across various recipients.
+- **Customizable Redaction Levels**: User-defined options for secure sharing across various recipients.
 
-**Multi-Format Support**: Text, images, and videos.
+- **Multi-Format Support**: Text, images, and videos.
 
-**Security-Focused**: Blockchain and SHA-256 hashing for integrity and secure data handling.
+- **Security-Focused**: Blockchain and SHA-256 hashing for integrity and secure data handling.
 
-**Offline Functionality**: Ensures complete privacy and control over data.
+- **Offline Functionality**: Ensures complete privacy and control over data.
 
-**User-Friendly**: Designed for both technical and non-technical users.
+- **User-Friendly**: Designed for both technical and non-technical users.
 
 
 ## Frontend
