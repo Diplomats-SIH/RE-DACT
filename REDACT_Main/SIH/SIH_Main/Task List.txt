@@ -1,0 +1,7 @@
+1. Extention backend integration 
+2. Toweri backend integration.
+3. blockchain application 
+4. Handwirriten 
+5. Numberplate detection 
+6. Synthetic image and video replacement 
+7. Video redaction.
