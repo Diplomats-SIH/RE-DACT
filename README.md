@@ -137,17 +137,19 @@ Tauri
 Steps
 
 **Clone the repository.**
-
+```bash
 git clone https://github.com/Diplomats-SIH/RE-DACT.git
+```
+
 
 Navigate to the project directory.
-
+```bash
 cd RE-DACT/REDACT_Main/SIH/SIH_Main
-
+```
 Install dependencies.
-
+```bash
 pip install -r requirements.txt
-
+```
 
 ## References
 
